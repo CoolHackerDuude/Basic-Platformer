@@ -16,8 +16,8 @@ class Level:
     returns True if in a wall
     """
     def get_in_wall(self, x, y):
-        tile_x = x // TILE_SIZE
-        tile_y = y // TILE_SIZE
+        tile_x = int(x) // TILE_SIZE
+        tile_y = int(y) // TILE_SIZE
         return self.tiles[tile_y][tile_x] == 'X'
         
     def draw_background(self):

@@ -10,3 +10,7 @@ GREY = (50, 50, 50)
 
 # Images
 BRICK = 'images/brick.png'
+
+# ENEMY Settings
+ENEMY_SPEED = 3
+
